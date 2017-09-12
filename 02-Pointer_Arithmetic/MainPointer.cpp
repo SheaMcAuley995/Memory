@@ -93,6 +93,15 @@ void cstrReversal(char * arr, int size)
 {
 	
 		char swapChar;
+		int len = 0;
+		for (int i = 0; i < len / 2; ++i)
+		{
+			if (*(arr + i) == '\0')
+			{
+				len++;
+				break;
+			}
+		}
 
 		int x = size - 1;
 		for (int i = 0; i < size / 2; i++)
