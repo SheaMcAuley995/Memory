@@ -13,7 +13,7 @@ void diffArrays(int * arrA, size_t arrASize,
 int main()
 {
 	int numA[] = { 3, 2, 1 };
-	int numB[] = { 3, 2 ,1, 10, 12 };l
+	int numB[] = { 3, 2 ,1, 10, 12 };
 
 	diffArrays(numA, 3, numB, 3);
 
